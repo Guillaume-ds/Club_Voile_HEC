@@ -1,0 +1,16 @@
+.card-photo{
+	width: 80%;
+	padding:1%;
+	margin: 0px auto;
+}
+
+
+.carousel-item {
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.carousel{
+	margin:0% 10%;
+}
