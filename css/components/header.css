@@ -12,7 +12,13 @@ header h1 {
 	font-size: 130px;
 	color: white;
 	font-weight: bold;
+ 	animation: TexteBleu 10s infinite;
+}
 
+@keyframes TexteBleu {
+	from,to {color: rgba(60,115,190,1);}	
+	50% {color: rgba(200,200,250,1);}
+	100% {color: rgba(60,115,190,1);}
 }
 
 footer {
