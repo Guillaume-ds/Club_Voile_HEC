@@ -25,14 +25,21 @@
 }
 
 .card{
-	margin: 2%;
+	margin: 1%;
 	margin-top: 0%;
 	padding:10px;
 }
 
+.card-title{
+	text-align: center;
+	margin: 2%;
+
+}
+
 .card-text {
-	padding: 5%;
+	text-align: justify;
 	font-size: 20px;
+	margin: 2%;
 }
 
 .card-text h1{
@@ -61,4 +68,22 @@
 	display: flex;
 	justify-content: space-around;
 	font-size: 60px;
+}
+
+.card-arrow{
+	display: flex;
+	flex-direction: column-reverse;
+	font-weight: 50px;
+	margin-top: 30%;
+	animation: vague 3s infinite;
+}
+
+@keyframes vague {
+	from,to {color: rgba(90,105,190,1);}	
+	50% {color: rgba(190,200,250,1);}
+	100% {color: rgba(90,105,190,1);}
+}
+
+#logo-ing2{
+	margin: 2% 40%;
 }

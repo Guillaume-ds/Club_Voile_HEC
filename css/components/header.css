@@ -8,17 +8,17 @@ header {
 }
 
 header h1 {
-	padding: 2%;
+	padding: 20%;
 	font-size: 130px;
-	color: white;
+	color: rgba(100,100,170,1);
 	font-weight: bold;
- 	animation: TexteBleu 10s infinite;
+	animation: TexteBleu 5s;
 }
 
 @keyframes TexteBleu {
-	from,to {color: rgba(60,115,190,1);}	
-	50% {color: rgba(200,200,250,1);}
-	100% {color: rgba(60,115,190,1);}
+	from,to {color: rgba(100,100,170,1);}	
+	50% {color: rgba(150,190,250,1);}
+	100% {color: rgba(100,100,170,1);}
 }
 
 footer {
@@ -26,4 +26,19 @@ footer {
 	padding-bottom: 2%;
 }
 
+.logos{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	
 
+}
+#logo-ing{
+	margin-left: 5%;
+	margin-top: 3%;
+}
+
+#logo-CV{
+	margin-right: 7%;
+	margin-top: 3%;
+}
